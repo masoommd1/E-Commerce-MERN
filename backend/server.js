@@ -30,7 +30,7 @@ app.use("/api/cart", cartRouter);
 app.use("/api/order",orderRouter)
 
 app.get("/", (req, res) => {
-  res.send("api is running");
+  res.send("api is running DDFD");
 });
 console.log("DD")
 app.listen(port, () => console.log("server is running on port: " + port));
