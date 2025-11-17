@@ -30,6 +30,7 @@ app.use("/api/cart", cartRouter);
 app.use("/api/order",orderRouter)
 
 app.get("/", (req, res) => {
+  connectDB();
   res.send("api is running DDFD");
 });
 console.log("DD")
