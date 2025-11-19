@@ -25,7 +25,7 @@ const Hero = () => {
       </div>
       {/* right-sider hero */}
       <img
-        className="w-full sm:w-1/2 h-[600px] "
+        className="w-full h-[400px] sm:h-[600px] object-cover sm:w-1/2"
         src={assets.hero3}
         alt="image not found"
       />
