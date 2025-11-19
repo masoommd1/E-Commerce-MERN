@@ -133,10 +133,10 @@ const placeorder = () => {
               <p className={`min-w-3.5 h-3.5 rounded-full border ${method === 'stripe' ? 'bg-green-500' : ''}`}></p>
               <img src={assets.stripe_logo} className='h-5 mx-4' alt="" />
             </div>
-            <div onClick={()=> setMethod('esewa')} className='flex items-center gap-3 border p-2 px-3 cursor-pointer'>
+            {/* <div onClick={()=> setMethod('esewa')} className='flex items-center gap-3 border p-2 px-3 cursor-pointer'>
               <p className={`min-w-3.5 h-3.5 rounded-full border ${method === 'esewa' ? 'bg-green-500' : ''}`}></p>
               <img src={assets.esewa} className='h-5 mx-4' alt="" />
-            </div>
+            </div> */}
             <div onClick={()=> setMethod('cod')} className='flex items-center gap-3 border p-2 px-3 cursor-pointer'>
               <p className={`min-w-3.5 h-3.5 rounded-full border ${method === 'cod' ? 'bg-green-500' : ''}`}></p>
               <p className='text-gray-500 text-sm font-medium mx-4'>CASH ON DELIVERY</p>
